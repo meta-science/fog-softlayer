@@ -66,9 +66,7 @@ module Fog
       end
 
       def self.sanitize_username(username)
-        un = username.dup
-        un.gsub!(/@/, '%40')
-        un
+        username
       end
 
       ##
