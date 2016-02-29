@@ -51,8 +51,11 @@ module Fog
               :id                      => 'm1.xlarge',
               :name                    => 'Extra Large Instance',
               :cpu                     => 16,
-              :disk                    => [{'device' => 0, 'diskImage' => {'capacity' => 1000 } }],
-              :ram                     => 16384
+              :disk                    => [
+                {'device' => 0, 'diskImage' => {'capacity' => 500 } },
+                {'device' => 2, 'diskImage' => {'capacity' => 1000 } }
+              ],
+              :ram                     => 65536
           }
       ]
 
