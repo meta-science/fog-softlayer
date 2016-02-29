@@ -52,7 +52,7 @@ module Fog
               :name                    => 'Extra Large Instance',
               :cpu                     => 16,
               :disk                    => [
-                {'device' => 0, 'diskImage' => {'capacity' => 500 } },
+                {'device' => 0, 'diskImage' => {'capacity' => 100 } },
                 {'device' => 2, 'diskImage' => {'capacity' => 1000 } }
               ],
               :ram                     => 65536
